@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page | SABCO</title>
+    <meta name="author" content="Carissa E Cunningham">
+    <meta name="description" content="Non-Profit Orphanage">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="styles/mobile.css" rel="stylesheet"> <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet"> <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet"> <!-- large/wide/desktop views -->
+</head>
+
+<body>
+    <div class=infoheader>
+        <h4>info@SABCO.org    &vert;    (801)555-5555</h4>
+    </div>
+
+    <header>
+        <img src="" alt="SABCO logo of an Elephant with a baby tailing behind">
+        <h1>Small Action, Big Change Orphanage</h1>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+        <nav class="topnav">
+            <ul id="myLinks">
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="#kids">Meet the Kids</a></li>
+                <li><a href="#school">The School</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div>
+            <div id="donatebutton">
+                <a href="#donate">Donate</a>
+            </div>
+            <img id="homepic" src="images/homepage-group.jpg" alt="group of smiling children">
+        </div>
+
+        <div>
+            <h2><a href="#kids">Meet the Kids</a></h2>
+        </div>
+
+        <div>
+            <h2><a href="#school">Fund the School</a></h2>
+        </div>
+
+        <div>
+            <h2><a href="#aboutUs">Meet the Crew</a></h2>
+        </div>
+    </main>
+
+    <footer>
+        <aside>
+            SABCO <br>
+            3950 Valley Commons Dr.<br>
+            Bozeman, MT 59715<br>
+            (406)888-9898<br>
+            contact@SABCO.com<br>
+        </aside>
+        <p class="footer-bar">&copy;2019 All Rights Reserved &vert; SABCO &vert; <span id="currentdate">
+                <script src="scripts/currentdate.js"></script></span>
+        </p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script src="scripts/mobilenav.js"></script>
+
+</body>
+
+</html>

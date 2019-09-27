@@ -16,7 +16,7 @@ body {
     width: 480px;
 }
 #donatebutton {
-    background-color: rgb(230, 152, 8);
+    background-color: #d68227;
     width: 75px;
     display: block;
     position: fixed;
@@ -36,9 +36,11 @@ body {
   border-radius: 10px;
 }
 
+header h1 {color: #d68227}
+
 .topnav {
   overflow: hidden;
-  background-color: #4698b4;
+  background-color: #008db1;
   position: relative;
 }
 
@@ -73,7 +75,7 @@ a.icon {
 }
 
 footer {
-    background-color: #4698b4 ;
+    background-color: #008db1 ;
     color: white;
     padding: .05em 0 .05em 0;
     text-align: center;

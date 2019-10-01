@@ -28,7 +28,7 @@ body {
     text-decoration: none;
     padding: 10px;
 }
-
+@media only screen and (max-width: 600px) {
 body {
   max-width: 480px;
   margin: auto;
@@ -79,4 +79,8 @@ footer {
     color: white;
     padding: .05em 0 .05em 0;
     text-align: center;
+}
+#homepic {
+  width: 370px;
+}
 }

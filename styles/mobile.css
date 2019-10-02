@@ -83,4 +83,12 @@ footer {
 #homepic {
   width: 370px;
 }
+
+.multi-level, .item ul, .nav input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked ~ .multi-level, .item input:checked ~ ul {
+  display: block;
+}
 }

@@ -9,7 +9,14 @@ body {
     background-color: #4698b4 ;
     color: white;
     padding: .05em 0 .05em 0;
-    text-align: center;
+    font-size: 26px;
+    padding-left: 15px;
+}
+
+#para01 {
+  display:inline-block;
+  text-align: center;
+  padding-left: 10px;
 }
 
 #homepic {
@@ -84,11 +91,33 @@ footer {
   width: 370px;
 }
 
-.multi-level, .item ul, .nav input[type="checkbox"] {
+.infoheader input[type="checkbox"] {
   display: none;
 }
 
-#menu:checked ~ .multi-level, .item input:checked ~ ul {
-  display: block;
+.sub-menu {
+  position:absolute;
+  background-color: #326a7c ;
+  color: white;
+  font-size: 26px;
+  list-style-type: none;
+  width: 200px;
+  padding-left: 15px;
+  margin-left: -15px;
+  margin-top: 2px;
+  opacity: 0;
+}
+
+#menu:checked ~ .sub-menu{
+  opacity: 1;
+}
+
+.sub-menu > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sub-menu > li:hover {
+  background-color: #61747a;
 }
 }

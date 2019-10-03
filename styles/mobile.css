@@ -9,8 +9,8 @@ body {
     background-color: #4698b4 ;
     color: white;
     padding: .05em 0 .05em 0;
-    font-size: 26px;
-    padding-left: 15px;
+    font-size: .75em;
+    padding-left: 30px;
 }
 
 #para01 {
@@ -19,22 +19,7 @@ body {
   padding-left: 10px;
 }
 
-#homepic {
-    width: 480px;
-}
-#donatebutton {
-    background-color: #d68227;
-    width: 75px;
-    display: block;
-    position: fixed;
-    right: 0;
-    top: 0;
-}
-#donatebutton a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
+
 @media only screen and (max-width: 600px) {
 body {
   max-width: 480px;
@@ -43,7 +28,21 @@ body {
   border-radius: 10px;
 }
 
-header h1 {color: #d68227}
+header h1 {
+  color: #d68227;
+  font-family: 'Vibes', cursive;
+  font-size: 1.25em;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobile-header img {
+  max-width: 75px;
+  max-height: 75px;
+}
 
 .topnav {
   overflow: hidden;
@@ -81,12 +80,21 @@ a.icon {
   color: white;
 }
 
-footer {
-    background-color: #008db1 ;
-    color: white;
-    padding: .05em 0 .05em 0;
-    text-align: center;
+#donatebutton {
+  background-color: #d68227;
+  width: 5em;
+  height: 2em;
+  position: absolute;
+  left: 290px;
+  opacity: .75;
 }
+#donatebutton a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
 #homepic {
   width: 370px;
 }
@@ -120,4 +128,15 @@ footer {
 .sub-menu > li:hover {
   background-color: #61747a;
 }
+
+
+footer {
+  background-color: #008db1 ;
+  color: white;
+  padding: .05em 0 .05em 0;
+  text-align: center;
+  font-size: .75em;
+}
+
+
 }

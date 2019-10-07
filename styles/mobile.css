@@ -103,9 +103,8 @@ a.icon {
   position:absolute;
   background-color: #326a7c ;
   color: white;
-  font-size: 9x;
   list-style-type: none;
-  width: 200px;
+  width: 75%;
   padding-left: 0px;
   margin-left: -30px;
   margin-top: 0px;
@@ -117,12 +116,13 @@ a.icon {
 }
 
 .sub-menu > li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 .sub-menu > li > a {
+  font-size: 30px;
   color: white;
   text-decoration: none;
 }

@@ -16,7 +16,7 @@ body {
 #para01 {
   display:inline-block;
   text-align: center;
-  padding-left: 10px;
+  padding-left: 100px;
 }
 
 
@@ -124,6 +124,11 @@ a.icon {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 15px;
+}
+
+.sub-menu > li > a {
+  color: white;
+  text-decoration: none;
 }
 
 .sub-menu > li:hover {

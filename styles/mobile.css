@@ -80,20 +80,16 @@ a.icon {
   color: white;
 }
 
-#donatebutton {
+#donate_button {
   background-color: #d68227;
-  width: 5em;
-  height: 2em;
-  position: absolute;
-  left: 290px;
-  opacity: .75;
-}
-#donatebutton a {
+  width: 150px;
+  height: 80px;
   color: white;
   text-decoration: none;
-  padding: 15px;
+  font-size: 1.5em;
+  padding-top: 10px;
+  border-radius: 25px;
 }
-
 
 #homepic {
   width: 100%;
@@ -137,43 +133,35 @@ a.icon {
 
 .home_links {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  margin-top: 2em;
+  text-align: center;
 }
 
-.image_links img {
+.home_links a img {
   max-width: 300px;
   height: auto;
-  opacity: .7;
+  box-shadow: 10px 10px #888888;
 }
 
-#meetKids_imagelink {
-  position: absolute;
-  left: 0;
-  top: 75%;
-  width: 100%;
-  text-align: center;
-  font-size: 2em;
-}
 
-#meetKids_imagelink a {
-  color: white;
+.home_links a {
+  color: #008db1;
   text-decoration: none;
+  margin: 1em;
 }
 
 
-#school_imagelink {
+/* #school_imagelink {
   position: absolute;
   left: 0;
   top: 100%;
   width: 100%;
   text-align: center;
   font-size: 2em;
-}
+} */
 
 #school_imagelink a {
-  color: white;
+
   text-decoration: none;
 }
 

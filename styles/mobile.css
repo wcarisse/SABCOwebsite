@@ -83,12 +83,12 @@ a.icon {
 #donate_button {
   background-color: #d68227;
   width: 150px;
-  height: 80px;
+  height: 50px;
   color: white;
   text-decoration: none;
   font-size: 1.5em;
   padding-top: 10px;
-  border-radius: 25px;
+  border-radius: 0 25px 25px 0;
 }
 
 #homepic {
@@ -140,14 +140,14 @@ a.icon {
 .home_links a img {
   max-width: 300px;
   height: auto;
-  box-shadow: 10px 10px #888888;
+  /* box-shadow: 10px 10px #c5c5c5; */
 }
 
 
 .home_links a {
   color: #008db1;
   text-decoration: none;
-  margin: 1em;
+  margin: .5em;
 }
 
 

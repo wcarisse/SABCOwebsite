@@ -15,8 +15,8 @@ body {
 
 #para01 {
   display:inline-block;
-  text-align: center;
-  padding-left: 100px;
+  /* text-align: left; */
+  padding-left: 50px;
 }
 
 
@@ -95,7 +95,7 @@ a.icon {
   width: 100%;
 }
 
-.infoheader input[type="checkbox"] {
+#menu  {
   display: none;
 }
 

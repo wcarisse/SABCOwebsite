@@ -8,17 +8,23 @@ body {
 .infoheader {
     background-color: #4698b4 ;
     color: white;
-    padding: .05em 0 .05em 0;
     font-size: .75em;
     padding-left: 30px;
 }
 
 #para01 {
   display:inline-block;
-  /* text-align: left; */
   padding-left: 50px;
 }
 
+#donate_button {
+  background-color: #d68227;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+  padding: 10px;
+  margin-left: 2em;
+}
 
 @media only screen and (max-width: 600px) {
 body {
@@ -46,7 +52,7 @@ header h1 {
 
 .topnav {
   overflow: hidden;
-  background-color: #008db1;
+  background-color: #4698b4;
   position: relative;
 }
 
@@ -62,13 +68,13 @@ header h1 {
   display: block;
 }
 
-a.icon {
+/* a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-}
+} */
 
 .topnav a:hover {
   background-color: #ddd;
@@ -80,45 +86,40 @@ a.icon {
   color: white;
 }
 
-#donate_button {
-  background-color: #d68227;
-  width: 150px;
-  height: 50px;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-  padding-top: 10px;
-  border-radius: 0 25px 25px 0;
-}
-
 #homepic {
   width: 100%;
 }
 
-#menu  {
+#menu {
   display: none;
 }
 
 .sub-menu {
-  position:absolute;
-  background-color: #326a7c ;
+  position: absolute;
+  background-color: #4698b4;
   color: white;
   list-style-type: none;
-  width: 75%;
+  width: 90%;
   padding-left: 0px;
-  margin-left: -30px;
   margin-top: 0px;
   display: none;
+  opacity: .95;
 }
 
 #menu:checked ~ .sub-menu{
   display: block;
 }
 
+.mobile-header label {
+  font-size: 2em;
+}
+
 .sub-menu > li {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: white;
 }
 
 .sub-menu > li > a {
@@ -128,7 +129,7 @@ a.icon {
 }
 
 .sub-menu > li:hover {
-  background-color: #61747a;
+  background-color: #ddd;
 }
 
 .home_links {
@@ -150,20 +151,7 @@ a.icon {
   margin: .5em;
 }
 
-
-/* #school_imagelink {
-  position: absolute;
-  left: 0;
-  top: 100%;
-  width: 100%;
-  text-align: center;
-  font-size: 2em;
-} */
-
-#school_imagelink a {
-
-  text-decoration: none;
-}
+#school_imagelink a { text-decoration: none; }
 
 
 

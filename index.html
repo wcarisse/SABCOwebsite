@@ -51,10 +51,11 @@
     </header>
 
     <main>
-        
-        <img id="homepic" src="images/homepage-group-mobile.jpg" alt="group of smiling children">
-        
-        
+        <picture>
+            <source media="(min-width: 900px)" srcset="images/homepage-group-large.jpg">
+            <source media="(min-width: 480px)" srcset="images/homepage-group-medium.jpg">
+            <img id="homepic" src="images/homepage-group-mobile.jpg" alt="group of smiling children">
+        </picture>
 
         <div class="home_links">
             <a href="views/meet_kids.html" id="img1">

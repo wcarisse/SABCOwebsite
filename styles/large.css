@@ -1,0 +1,85 @@
+@media only screen and (min-width: 992px) {
+    .infoheader {
+        display: none;
+      }
+
+      .sub-menu {
+          display: none;
+      }
+      
+      header h1 {
+        color: #d68227;
+        font-family: 'Vibes', cursive;
+        font-size: 1.25em;
+      }
+      
+      .mobile-header {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #homepic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .mobile-header img {
+        max-width: 75px;
+        max-height: 75px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #008db1;
+        position: relative;
+      }
+      
+      #myLinks {
+        display: flex;
+        flex-wrap: nowrap;
+        list-style-type: none;
+      }
+
+      #myLinks > li {
+        width: 16%;
+        text-align: center;
+        line-height: 30px;
+      }
+
+      #myLinks > li > a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      #myLinks > li:hover {
+          background-color: #ddd;
+      }
+
+      #menu {
+        display: none;
+      }
+
+      .mobile-header label {
+        display: none;
+      }
+
+      footer {
+        background-color: #008db1 ;
+        color: white;
+        padding: .05em 0 .05em 0;
+        text-align: center;
+        font-size: .75em;
+      }
+
+      .home_links {
+          display: flex;
+          width: 100%;
+      }
+
+      .home_links > a > img {
+          width: 100%;
+          height: auto;
+      }
+}

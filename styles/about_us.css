@@ -1,32 +1,67 @@
 /* About Us Page Styles */
 
 /*Mobile View*/
-#about_us h1 {
-    border-bottom-style: solid;
-    border-bottom-color: #008db1;
-  }
-  
-  #aboutus-aside h2{
-    border-bottom-style: solid;
-    border-bottom-color: #008db1;
-  }
 
-  #donate_button2 {
+main {
+  padding: 1em;
+}
+
+main h1 {
+    border-bottom-style: solid;
+    border-bottom-color: #008db1;
+    font-size: 2em;
+    border-bottom-width: 3px;
+}
+  
+#aboutus-aside h2{
+    border-bottom-style: solid;
+    border-bottom-color: #008db1;
+    border-bottom-width: 3px;
+}
+
+#donate_button2 {
     background-color: #d68227;
     color: white;
     text-decoration: none;
     font-size: 1em;
     padding: 10px;
+}
+
+#aboutus-aside {
+    display: none;
+}
+
+#founders1 h2, #founders2 h2 {
+  border-bottom-style: solid;
+  border-bottom-color: #d68227;
+  border-bottom-width: 3px;
+}
+ 
+
+
+  /*Medium View*/
+@media only screen and (min-width: 600px) {
+  #aboutus-aside {
+    display: block;
   }
 
-  
-  /*Medium View*/
-@media only screen and (min-width: 600px) and (max-width:991px) {
+  main h1 {
+    max-width: 30%;
+  }
 
-}
+  #about_us {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #founders1, #founders2 {
+    max-width: 50%;
+    margin: 1em;
+  }
 
 
   /*Large View*/
 @media only screen and (min-width: 992px) {
+  
 
 }

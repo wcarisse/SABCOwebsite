@@ -7,34 +7,32 @@ main {
 }
 
 main h1 {
-    border-bottom-style: solid;
-    border-bottom-color: #008db1;
-    font-size: 2em;
-    border-bottom-width: 3px;
+  text-decoration: underline;
+  text-decoration-color: #008db1;
+  font-size: 2em;
+  
 }
   
 #aboutus-aside h2{
-    border-bottom-style: solid;
-    border-bottom-color: #008db1;
-    border-bottom-width: 3px;
+  text-decoration: underline;
+  text-decoration-color: #008db1;
 }
 
 #donate_button2 {
-    background-color: #d68227;
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 10px;
+  background-color: #d68227;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px;
 }
 
 #aboutus-aside {
-    display: none;
+  display: none;
 }
 
 #founders1 h2, #founders2 h2 {
-  border-bottom-style: solid;
-  border-bottom-color: #d68227;
-  border-bottom-width: 3px;
+  text-decoration: underline;
+  text-decoration-color: #d68227;
 }
  
 
@@ -50,8 +48,8 @@ main h1 {
   }
 
   #about_us {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    overflow: auto;
   }
 
   #founders1, #founders2 {

@@ -141,4 +141,8 @@
       text-align: center;
       font-size: .75em;
     }
+
+    .welcome {
+      display: none;
+    }
   }

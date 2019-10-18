@@ -46,12 +46,19 @@
         display: flex;
         flex-wrap: nowrap;
         list-style-type: none;
+        justify-content: center;
       }
 
       #myLinks > li {
-        width: 16%;
+        margin-top: -17px;
+        margin-right: 25px;
+        margin-bottom: -17px;
         text-align: center;
         line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
 
       #myLinks > li > a {
@@ -96,13 +103,6 @@
         box-shadow: 10px 10px #888888;
       }
 
-      [class*="col-"] {
-        float: left;
-      }
-      .col-1 {
-        width: 50%;
-      }
-
       #home-info {
         margin-top: 25px;
         margin-left: 25px;
@@ -110,8 +110,8 @@
       }
 
       #home-para {
-        overflow:auto;
-        display:block;
+        overflow: auto;
+        display: block;
       }
 
       #img1 {
@@ -125,5 +125,13 @@
 
       #img4 {
         display: none;
+      }
+
+      #donate_button {
+        display: none;
+      }
+
+      .welcome {
+        text-align: center;
       }
 }

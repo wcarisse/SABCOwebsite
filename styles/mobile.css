@@ -157,6 +157,10 @@ footer {
   font-size: .75em;
 }
 
+.welcome {
+  display: none;
+}
+
 
 
 

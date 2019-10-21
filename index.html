@@ -9,31 +9,33 @@
     <meta name="description" content="Non-Profit Orphanage">
     <!-- external style references in the proper cascading order -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet">
     <link href="styles/mobile.css" rel="stylesheet"> <!-- default styles - small/phone views -->
     <link href="styles/medium.css" rel="stylesheet"> <!-- medium/tablet views -->
     <link href="styles/large.css" rel="stylesheet"> <!-- large/wide/desktop views -->
 </head>
 
 <body>
+    <a href="views/donate.html" id="donate_button">Donate</a>
+
     <div class=infoheader>
-        <p id="para01">info@SABCO.org    &vert;    (801)555-5555</p>
-        <a href="#donate" id="donate_button">Donate</a>
+        <p id="para01">info@SABCO.org &vert; (801)555-5555</p>
     </div>
 
     <header>
         <div class="mobile-header">
-            <a href="index.html"><img src="images/logo_placeholder.jpg" alt="SABCO logo of an Elephant with a baby tailing behind"></a>
+            <a href="index.html"><img src="images/logo_placeholder.jpg"
+                    alt="SABCO logo of an Elephant with a baby tailing behind"></a>
             <h1>Small Action, Big Change Orphanage</h1>
 
-            <input type="checkbox" id="menu"/>
+            <input type="checkbox" id="menu" />
             <label for="menu">&#9776;</label>
             <ul class="sub-menu">
                 <li><a href="views/about_us.html">About Us </a></li>
-                <li><a href="views/meet_kids.html">The Children  </a></li>
-                <li><a href="views/donate.html">Donate  </a></li>
-                <li><a href="views/school.html">The School  </a></li>
-                <li><a href="views/contact.html">Contact Us  </a></li>
+                <li><a href="views/meet_kids.html">The Children </a></li>
+                <li><a href="views/donate.html">Donate </a></li>
+                <li><a href="views/school.html">The School </a></li>
+                <li><a href="views/contact.html">Contact Us </a></li>
             </ul>
         </div>
 
@@ -46,23 +48,33 @@
                 <li><a href="views/about_us.html">About Us</a></li>
                 <li><a href="views/contact.html">Contact Us </a></li>
             </ul>
-            
+
         </nav>
     </header>
 
     <main>
-        <picture>
-            <source media="(min-width: 900px)" srcset="images/homepage-group-large.jpg">
-            <source media="(min-width: 480px)" srcset="images/homepage-group-medium.jpg">
-            <img id="homepic" src="images/homepage-group-mobile.jpg" alt="group of smiling children">
-        </picture>
+        <div id="home-info">
+            <picture id="home-pic">
+                <source media="(min-width: 480px)" srcset="images/homepage-group-medium.jpg">
+                <img id="homepic" src="images/homepage-group-mobile.jpg" alt="group of smiling children">
+            </picture>
+
+            <h1 class="welcome">Karibusana!</h1>
+            <h2 class="welcome">Welcome to Small Action, Big Change Orphanage</h2>
+            <!-- <p id="home-para">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p> -->
+        </div>
 
         <div class="home_links">
             <a href="views/meet_kids.html" id="img1">
                 <img src="images/meetkids_mobile.jpg" alt="adult surrounded by adorable children">
             </a>
-            
-            <a href="views/school.html" id="img2"> 
+
+            <a href="views/school.html" id="img2">
                 <img src="images/school_pic_placeholder_mobile.jpg" alt="two little girls walking away holding hands">
             </a>
 
@@ -80,9 +92,6 @@
     <footer>
         <aside>
             SABCO <br>
-            3950 Valley Commons Dr.<br>
-            Bozeman, MT 59715<br>
-            (406)888-9898<br>
             contact@SABCO.com<br>
         </aside>
         <p class="footer-bar">&copy;2019 All Rights Reserved &vert; SABCO &vert; <span id="currentdate">

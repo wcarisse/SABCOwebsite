@@ -1,3 +1,5 @@
+/*Home Page Styles for Mobile View */
+
 * { box-sizing: border-box;}
 
 body {
@@ -18,12 +20,13 @@ body {
 }
 
 #donate_button {
+  position: fixed;
+  left: 80%;
   background-color: #d68227;
   color: white;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 10px;
-  margin-left: 2em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,14 +70,6 @@ header h1 {
   font-size: 17px;
   display: block;
 }
-
-/* a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
 
 .topnav a:hover {
   background-color: #ddd;
@@ -154,8 +149,6 @@ header h1 {
 #school_imagelink a { text-decoration: none; }
 
 
-
-
 footer {
   background-color: #008db1 ;
   color: white;
@@ -163,6 +156,14 @@ footer {
   text-align: center;
   font-size: .75em;
 }
+
+.welcome {
+  display: none;
+}
+
+
+
+
 
 
 }

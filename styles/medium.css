@@ -19,7 +19,11 @@
       margin-left: auto;
       margin-right: auto;
     }
-    
+    #myLinks > li > a {
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
     .mobile-header img {
       max-width: 75px;
       max-height: 75px;

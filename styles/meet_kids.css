@@ -1,36 +1,62 @@
-.card-container {
-    position: relative;
-    height: 150px;
-    width: 150px;
-}
+/* The following code was taken from https://codepen.io/andymcfee/pen/eyahr */
 .flip-card {
-    position: absolute;
-    z-index: 1000px;
-    width: 100%;
-    height: 100px;
-    transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
-}
-.flip-card:hover {
-    transform: rotateY(180deg);
-}
-/* .card-front {
+    display: block;
     position: relative;
-    width: 100%;
-    height: 100%;
-}
-.flip-card:hover .card-front {
-    transform: rotateY(180deg);
+    z-index: 1000;
+    width: 100px;
+    height: 100px;
+  }
+  .flip-card .card-front,
+  .flip-card .card-back {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 500ms;
+    -webkit-transition: -webkit-transform 1s;
     transition: transform 1s;
-}
-.card-front .card-back {
+    display: block;
+    height: 100%;
     position: absolute;
     width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-.card-back {
+  }
+  .flip-card .card-front {
+    -moz-transform: perspective(300) rotateY(0);
+    -webkit-transform: perspective(300) rotateY(0);
+    transform: perspective(300) rotateY(0);
+    z-index: 900;
+  }
+  .flip-card .card-back {
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    z-index: 800;
+  }
+  .flip-card:hover .card-front {
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    background-color:blue;
-
-} */
+    -moz-transform: perspective(300) rotateY(180deg);
+    -webkit-transform: perspective(300) rotateY(180deg);
+    transform: perspective(300) rotateY(180deg);
+  }
+  .flip-card:hover .card-back {
+    z-index: 950;
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -moz-transform: perspective(300) rotateY(0deg);
+    -webkit-transform: perspective(300) rotateY(0deg);
+    transform: perspective(300) rotateY(0deg);
+  }
+  
+  /* My code */
+  .card-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+  .flip-card {
+      justify-self: center;
+  }

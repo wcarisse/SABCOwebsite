@@ -9,12 +9,13 @@
     header h1 {
       color: #d68227;
       font-family: 'Vibes', cursive;
-      font-size: 1.25em;
+      font-size: 1.75em;
+      margin-left: 20px;
     }
     
     .mobile-header {
       display: flex;
-      justify-content: space-around;
+      justify-content: left;
     }
     #homepic {
       display: block;
@@ -35,10 +36,10 @@
     
     #myLinks {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       list-style-type: none;
     }
-    #myLinks li {
+    #myLinks li a {
        color: white;
       text-decoration: none;
       font-size: 17px;
@@ -106,8 +107,9 @@
       height: 80px;
       color: white;
       text-decoration: none;
-      font-size: 1.5em;
-      padding-top: 10px;
+      font-size: 2em;
+      padding-top: 20px;
+      padding-left: 20px;
       border-radius: 25px;
       grid-column: 1 / 2;
       justify-content: stretch;

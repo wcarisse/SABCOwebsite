@@ -1,0 +1,113 @@
+@media only screen and (min-width: 992px) {
+    main {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+    .column {
+        float: left;
+        padding-right: 25px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+    }
+
+    .picture {
+        width: 75%;
+    }
+
+    .content {
+        width: 25%;
+    }
+
+    #help {
+        background-color: rgb(236, 236, 236);
+        padding-bottom: 15px;
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    h1 {
+        border-bottom: 2px solid #d68227;
+    }
+
+    #help > h1 {
+        text-align: center;
+    }
+
+    #help > p {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    #donate {
+        background-color: #d68227;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 2px;
+        border-radius: 5px;
+        font-size: 26px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 25px;
+    }
+
+    #class {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    #help > h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    main {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #class {
+        width: 100%;
+        height: auto;
+    }
+
+    #donate {
+        background-color: #d68227;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 2px;
+        border-radius: 5px;
+        font-size: 26px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 25px;
+    }
+
+    #help {
+        text-align: center;
+    }
+
+    #help > p {
+        text-align: left;
+    }
+}

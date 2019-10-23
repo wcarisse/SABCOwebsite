@@ -9,32 +9,34 @@
     <meta name="description" content="Non-Profit Orphanage">
     <!-- external style references in the proper cascading order -->
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet">
     <link href="../styles/mobile.css" rel="stylesheet"> <!-- default styles - small/phone views -->
     <link href="../styles/medium.css" rel="stylesheet"> <!-- medium/tablet views -->
     <link href="../styles/large.css" rel="stylesheet"> <!-- large/wide/desktop views -->
+    <link href="../styles/school.css" rel="stylesheet"> <!-- large/wide/desktop views for school page -->
 </head>
 
 <body>
     <div class=infoheader>
-        <p id="para01">info@SABCO.org    &vert;    (801)555-5555</p>
+        <p id="para01">info@SABCO.org &vert; (801)555-5555</p>
     </div>
 
     <header>
         <div class="mobile-header">
-            <a href="../index.html"><img src="../images/logo_placeholder.jpg" alt="SABCO logo of an Elephant with a baby tailing behind"></a>
+            <a href="../index.html"><img src="../images/logo_placeholder.jpg"
+                    alt="SABCO logo of an Elephant with a baby tailing behind"></a>
             <h1>Small Action, Big Change Orphanage</h1>
 
-            <input type="checkbox" id="menu"/>
-        <label for="menu">&#9776;</label>
-        <ul class="sub-menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="meet_kids.html">The Children</a></li>
-            <li><a href="donate.html">Donate </a></li>
-            <li><a href="school.html">The School </a></li>
-            <li><a href="contact.html">Contact Us </a></li>
-        </ul>
+            <input type="checkbox" id="menu" />
+            <label for="menu">&#9776;</label>
+            <ul class="sub-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="meet_kids.html">The Children</a></li>
+                <li><a href="donate.html">Donate </a></li>
+                <li><a href="school.html">The School </a></li>
+                <li><a href="contact.html">Contact Us </a></li>
+            </ul>
         </div>
 
         <nav class="topnav">
@@ -46,13 +48,52 @@
                 <li><a href="about_us.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us </a></li>
             </ul>
-            
+
         </nav>
     </header>
 
     <main>
-        
-       
+        <h1 id="school_header">Plans for School</h1>
+
+        <div class="clearfix">
+            <div id="plans" class="column picture">
+                <img id="class" src="../images/class_room.jpg" alt="picture of and apple on books in a classroom">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit,
+                    vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus,
+                    ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor
+                    mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit
+                    amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum
+                    in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut
+                    vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius
+                    pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit
+                    amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris,
+                    malesuada quis ornare accumsan, blandit sed diam.
+                </p>
+
+            </div>
+            <div id="help" class="column content">
+                <h1>How can I help?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Nulla quam velit, vulputate
+                    eu pharetra nec, mattis ac
+                    neque. Duis vulputate
+                    commodo lectus, ac blandit
+                    elit tincidunt id. Sed rhoncus,
+                    tortor sed eleifend tristique,
+                    tortor mauris molestie elit, et
+                    lacinia ipsum quam nec dui.
+                    Quisque nec mauris sit amet
+                    elit iaculis pretium sit amet
+                    quis magna. Aenean velit.
+                </p>
+                <button type="button" id="donate" onclick="window.location.href ='../views/donate.html';">Donate</button>
+
+            </div>
+        </div>
+
 
     </main>
 

@@ -7,15 +7,8 @@ main {
 }
 
 main h1 {
-  text-decoration: underline;
-  text-decoration-color: #008db1;
+  border-bottom: 2px solid #d68227;
   font-size: 2em;
-  
-}
-  
-#aboutus-aside h2{
-  text-decoration: underline;
-  text-decoration-color: #008db1;
 }
 
 #aboutus-aside {
@@ -24,33 +17,21 @@ main h1 {
 
 #founders1 h2, #founders2 h2 {
   text-decoration: underline;
-  text-decoration-color: #d68227;
+  text-decoration-color: #ebebeb;
 }
  
 
 
   /*Medium View*/
-@media only screen and (min-width: 600px) {
-  #aboutus-aside {
-    display: block;
-    background-color: #ebebeb;
-    padding: 1em;
-    text-align: center;
-    grid-column-start: 3;
-  }
+@media only screen and (min-width: 800px) {
 
-  #donate_button2 {
-    background-color: #d68227;
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 10px;
-    margin-top: 2em;
-  }
 
   main {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 0;
   }
 
   h1 {
@@ -69,19 +50,40 @@ main h1 {
     
   }
 
+  #aboutus-aside {
+    display: block;
+    background-color: #ebebeb;
+    padding: 1em;
+    text-align: center;
+    grid-column-start: 3;
+    max-height: 450px;
+  }
+
+  #aboutus-aside h1 {
+    font-size: 1.5em;
+  }
+
+  #donate_button2 {
+    background-color: #d68227;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: 2em;
+    border-radius: 5px;
+  }
 
 
 }
 
+
+
   /*Large View*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1050) {
 
 picture {
   width: 600px;
 }
-  
-
-
 
 
 }

@@ -10,7 +10,7 @@
       }
       
       header h1 {
-        color: #d68227;
+        color: black;
         font-family: 'Vibes', cursive;
         font-size: 1.25em;
       }
@@ -20,6 +20,12 @@
         justify-content: center;
         font-size: 26px;
       }
+    
+      .mobile-header img {
+        margin-top: 20px;
+        max-width: 175px;
+        max-height: auto;
+      }
 
       #homepic {
         display: flex;
@@ -27,11 +33,6 @@
         height: auto;
         float: left;
         margin-right: 25px;
-      }
-      
-      .mobile-header img {
-        max-width: 75px;
-        max-height: 75px;
       }
       
       .topnav {
@@ -107,6 +108,11 @@
         margin-right: 25px;
       }
 
+      #home-info h1 {
+        color: #d68227;
+        font-size: 2.5em;
+      }
+
       #home-para {
         overflow: auto;
         display: block;
@@ -131,5 +137,10 @@
 
       .welcome {
         text-align: center;
+      }
+
+      #homepage_logo {
+        margin-top: 4em;
+        margin-left: 8em;
       }
 }

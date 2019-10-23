@@ -11,7 +11,7 @@ body {
     background-color: #4698b4 ;
     color: white;
     font-size: .75em;
-    padding-left: 30px;
+    padding-left: 75px;
 }
 
 #para01 {
@@ -39,9 +39,11 @@ body {
 }
 
 header h1 {
-  color: #d68227;
+  color: black;
   font-family: 'Vibes', cursive;
   font-size: 1.25em;
+  text-align: center;
+  padding-right: 45px;
 }
 
 .mobile-header {
@@ -50,8 +52,9 @@ header h1 {
 }
 
 .mobile-header img {
-  max-width: 75px;
-  max-height: 75px;
+  margin-top: 20px;
+  max-width: 100px;
+  max-height: auto;
 }
 
 .topnav {
@@ -109,6 +112,7 @@ header h1 {
 
 .mobile-header label {
   font-size: 2em;
+  margin-right: 25px;
 }
 
 .sub-menu > li {
@@ -163,7 +167,9 @@ footer {
   display: none;
 }
 
-
+#homepage_logo {
+  display: none;
+}
 
 
 

@@ -59,4 +59,15 @@
   }
   .flip-card {
       justify-self: center;
+
   }
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+.flip-card {
+    justify-self: center;
+
+}
+}

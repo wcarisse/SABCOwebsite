@@ -3,8 +3,11 @@
     display: block;
     position: relative;
     z-index: 2;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    /* carissa added */
+    margin: 20px;
+    
   }
   .flip-card .card-front,
   .flip-card .card-back {
@@ -61,13 +64,33 @@
       justify-self: center;
 
   }
+
+.card-front img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px lightgray;
+  cursor: pointer;
+}
+
+.card-back h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   .card-container {
-    display: grid;
     grid-template-columns: auto;
-}
-.flip-card {
-    justify-self: center;
+  }
+
+  .card-front img {
+    box-shadow: 0 0;
+  }
 
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1030px) {
+  .card-container {
+    grid-template-columns: auto auto;
+  }
+
 }

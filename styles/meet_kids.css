@@ -57,6 +57,11 @@
   
 
   /* My code */
+#kidhealth_info {
+  display: flex;
+  align-items: flex-end;
+}
+
  main {
    margin: 10px;
  }

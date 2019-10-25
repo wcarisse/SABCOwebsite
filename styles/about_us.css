@@ -3,8 +3,9 @@
 /*Mobile View*/
 
 main {
-  padding: 1em;
+  padding: 10px;
 }
+
 
 main h1 {
   border-bottom: 2px solid #d68227;
@@ -17,7 +18,15 @@ main h1 {
 
 #founders1 h2, #founders2 h2 {
   text-decoration: underline;
-  text-decoration-color: #ebebeb;
+  text-decoration-color: #d68227;
+}
+
+#founders1, #founders2 {
+  padding: 10px;
+}
+
+#meetus_pic {
+  max-width: 100%;
 }
  
 /* @media only screen and (min-width: 1000px) and (max-width */
@@ -25,36 +34,23 @@ main h1 {
   /*Medium View*/
 @media only screen and (min-width: 800px) {
 
-
-  main {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 0;
+  footer {
+    clear: both;
   }
 
-  h1 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 5;
-  }
-
-  #pic_div {
-    width: 500px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    
-  }
+ section {
+   float: left;
+   width: 70%;
+ }
 
   #aboutus-aside {
     display: block;
+    float: right;
     background-color: #ebebeb;
     padding: 1em;
     text-align: center;
-    grid-column-start: 3;
-    max-height: 500px;
+    width: 25%;
+  
   }
 
   #aboutus-aside h1 {
@@ -80,13 +76,25 @@ main h1 {
 @media only screen and (min-width: 1030px) {
 
 main {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
+
 picture {
-  width: 600px;
+  float: left;
+  max-width: 50%;
+  margin: 1em;;
 }
+
+section {
+  width: 75%;
+}
+
+#aboutus-aside {
+  width: 20%;
+}
+
 
 
 }

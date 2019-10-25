@@ -55,14 +55,24 @@
     transform: perspective(300) rotateY(0deg);
   }
   
+
   /* My code */
+ main {
+   margin: 10px;
+ }
+ 
+  main h1 {
+  border-bottom: 2px solid #d68227;
+  font-size: 2em;
+  padding-left: 10px;
+ }
+
   .card-container {
       display: grid;
       grid-template-columns: auto auto auto;
   }
   .flip-card {
       justify-self: center;
-
   }
 
 .card-front img {
@@ -92,5 +102,8 @@
   .card-container {
     grid-template-columns: auto auto;
   }
+
+
+
 
 }

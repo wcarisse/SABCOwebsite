@@ -1,7 +1,7 @@
 @media only screen and (min-width: 992px) {
     main {
-        margin-right: 200px;
-        margin-left: 200px;
+        margin-right: 5em;
+        margin-left: 5em;
     }
 
     .clearfix {
@@ -19,7 +19,17 @@
     }
 
     .picture {
-        width: 75%;
+        max-width: 75%;
+    }
+
+    figcaption {
+        text-align: center;
+        color: #4698b4;
+    }
+
+    figure {
+        float: left;
+        max-width: 45%;
     }
 
     .content {
@@ -79,6 +89,10 @@
         margin-left: 25px;
     }
 
+    #school_header {
+        color: #d68227;
+    }
+
     h1 {
         text-align: center;
     }
@@ -109,5 +123,10 @@
 
     #help > p {
         text-align: left;
+    }
+
+    figcaption {
+        text-align: center;
+        color: #4698b4;
     }
 }

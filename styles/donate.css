@@ -49,6 +49,7 @@
     #screenshot {
         width: 100%;
         height: auto;
+        border-radius: 25px;
     }
 }
 
@@ -75,6 +76,7 @@
     #screenshot {
         width: 100%;
         height: auto;
+        border-radius: 25px;
     }
 
     #help {

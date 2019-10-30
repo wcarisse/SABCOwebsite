@@ -1,0 +1,91 @@
+@media only screen and (min-width: 992px) {
+    main {
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+    .column {
+        float: left;
+        padding-right: 25px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+    }
+
+    .picture {
+        width: 75%;
+    }
+
+    .content {
+        width: 25%;
+    }
+
+    #help {
+        background-color: rgb(236, 236, 236);
+        padding-bottom: 15px;
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    main h1 {
+        border-bottom: 2px solid #d68227;
+    }
+
+    #help > h1 {
+        text-align: center;
+    }
+
+    #help > p {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    #screenshot {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    #help > h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    main {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    #donate_header {
+        color: #d68227;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #screenshot {
+        width: 100%;
+        height: auto;
+    }
+
+    #help {
+        text-align: center;
+    }
+
+    #help > p {
+        text-align: left;
+    }
+
+    #help > h1 {
+        border-bottom: 2px solid #d68227;
+    }
+}

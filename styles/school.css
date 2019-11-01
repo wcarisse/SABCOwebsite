@@ -4,9 +4,7 @@
         margin-left: 5em;
     }
 
-    .clearfix {
-        overflow: auto;
-    }
+    .clearfix { overflow: auto; }
 
     .column {
         float: left;
@@ -18,9 +16,7 @@
         clear: both;
     }
 
-    .picture {
-        max-width: 75%;
-    }
+    .picture { max-width: 75%; }
 
     figcaption {
         text-align: center;
@@ -32,9 +28,7 @@
         max-width: 45%;
     }
 
-    .content {
-        width: 25%;
-    }
+    .content { width: 25%; }
 
     #help {
         background-color: rgb(236, 236, 236);
@@ -43,9 +37,9 @@
         padding-right: 15px;
     }
 
-    main h1 {
-        border-bottom: 2px solid #d68227;
-    }
+    main h1 { border-bottom: 2px solid #d68227; }
+
+    .clearfix h2 { color: #d68227; }
 
     #help > h1 {
         text-align: center;
@@ -78,9 +72,9 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1400px) {
-    #help > h1 {
-        font-size: 20px;
-    }
+    #help > h1 { font-size: 20px; }
+
+    main h1 { border-bottom: 2px solid #d68227; }
 }
 
 @media only screen and (max-width:991px) {
@@ -89,18 +83,12 @@
         margin-left: 25px;
     }
 
-    #school_header {
-        color: #d68227;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
     #class {
         width: 100%;
         height: auto;
     }
+
+    main h1 { border-bottom: 2px solid #d68227; }
 
     #donate {
         background-color: #d68227;

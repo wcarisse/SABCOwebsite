@@ -92,6 +92,10 @@
   text-align: center;
 }
 
+@media only screen and (min-width: 1030px) {
+  main h5 { display: none; }
+}
+
 @media only screen and (max-width: 600px) {
   .card-container {
     grid-template-columns: auto;

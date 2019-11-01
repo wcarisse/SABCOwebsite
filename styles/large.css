@@ -1,6 +1,16 @@
 /*Home Page Styles for Large Screen View*/
 
 @media only screen and (min-width: 992px) {
+    * { 
+      font-family: 'McLaren', sans-serif;
+      font-family: 'Muli', sans-serif;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+
+    body {
+      font-family: 'Muli', sans-serif;
+    }
+
     .infoheader {
         display: none;
       }
@@ -11,8 +21,8 @@
       
       header h1 {
         color: black;
-        /* font-family: 'Vibes', cursive; */
         font-size: 1.25em;
+        font-family: 'McLaren', sans-serif;
       }
       
       .mobile-header {

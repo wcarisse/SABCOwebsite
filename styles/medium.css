@@ -1,6 +1,15 @@
 /*Home Page Styles for Medium View*/
 
 @media only screen and (min-width: 600px) and (max-width:991px) {
+  * { 
+    font-family: 'McLaren';
+    font-family: 'Muli', sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+    body {
+      font-family: 'Muli', sans-serif;
+    }
 
     .infoheader {
       display: none;
@@ -8,9 +17,9 @@
     
     header h1 {
       color: black;
-      /* font-family: 'Vibes', cursive; */
       font-size: 1.75em;
       text-align: center;
+      font-family: 'McLaren', sans-serif;
     }
     
     .mobile-header {
@@ -141,7 +150,6 @@
       margin: 1em;
     } 
     #school_imagelink a {
-    
       text-decoration: none;
     }
     footer {

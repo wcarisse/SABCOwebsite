@@ -10,6 +10,13 @@ ul.donateList {
         padding: 15px;
         text-align: center;
 }
+a {
+    color: #d68227;
+}
+
+a:active {
+    color: #008db1;
+}
 
 @media only screen and (min-width: 992px) {
     main {
@@ -32,11 +39,11 @@ ul.donateList {
     }
 
     .picture {
-        width: 65%;
+        width: 60%;
     }
 
     .content {
-        width: 34%;
+        width: 40%;
     }
 
     main h1 {
@@ -55,6 +62,11 @@ ul.donateList {
         width: 75%;
         height: auto;
         border-radius: 25px;
+    }
+
+    #class {
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -83,8 +95,11 @@ ul.donateList {
         height: auto;
         border-radius: 25px;
     }
+<<<<<<< HEAD
     #image {
         display: none;
     }
 
+=======
+>>>>>>> 97a2ded583fa7521e05e3e29e6d820f963b6eb8f
 }

@@ -13,7 +13,7 @@ body {
     background-color: #4698b4 ;
     color: white;
     font-size: .75em;
-    padding-left: 75px;
+    padding-left: 50px;
 }
 
 #para01 {
@@ -43,6 +43,7 @@ body {
 header h1 {
   color: black;
   font-size: 1.25em;
+  font-family: 'McLaren';
   text-align: center;
   padding-right: 45px;
 }

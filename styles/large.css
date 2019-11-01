@@ -135,8 +135,9 @@
         display: none;
       }
 
-      .welcome {
+      #home-info h1, h2 {
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
       #homepage_logo {

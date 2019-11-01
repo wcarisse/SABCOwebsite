@@ -1,22 +1,19 @@
-ul.donateList {
-    list-style-type: circle;
-    }
+ul.donateList { list-style-type: circle; }
+
 .donateList li {
     padding-left: 10px;
     padding-bottom: 5px;
 }
+
 #GoFundMeHeader {
     background-color: rgb(236, 236, 236);
         padding: 15px;
         text-align: center;
 }
-a {
-    color: #d68227;
-}
 
-a:active {
-    color: #008db1;
-}
+a { color: #d68227; }
+
+a:active { color: #008db1; }
 
 @media only screen and (min-width: 992px) {
     main {
@@ -24,9 +21,7 @@ a:active {
         margin-left: 10em;
     }
 
-    .clearfix {
-        overflow: auto;
-    }
+    .clearfix { overflow: auto; }
 
     .column {
         float: left;
@@ -38,17 +33,11 @@ a:active {
         clear: both;
     }
 
-    .picture {
-        width: 60%;
-    }
+    .picture { width: 60%; }
 
-    .content {
-        width: 40%;
-    }
+    .content { width: 40%; }
 
-    main h1 {
-        border-bottom: 2px solid #d68227;
-    }
+    main h1 { border-bottom: 2px solid #d68227; }
 
     #image figure figcaption { text-align: center; }
     #image figure { max-width: 100%; }
@@ -59,9 +48,10 @@ a:active {
 
 
     #screenshot {
-        width: 75%;
+        width: 50%;
         height: auto;
         border-radius: 25px;
+        margin-left: 25%;
     }
 
     #class {
@@ -71,9 +61,7 @@ a:active {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1400px) {
-    #help > h1 {
-        font-size: 20px;
-    }
+    #help > h1 { font-size: 20px; }
 }
 
 @media only screen and (max-width:991px) {
@@ -82,24 +70,14 @@ a:active {
         margin-left: 25px;
     }
 
-    #donate_header {
-        color: #d68227;
-    }
-
-    h1 {
-        text-align: center;
-    }
+    main h1 { border-bottom: 2px solid #d68227; }
 
     #screenshot {
-        width: 50%;
+        width: 100%;
         height: auto;
         border-radius: 25px;
     }
-<<<<<<< HEAD
-    #image {
-        display: none;
-    }
 
-=======
->>>>>>> 97a2ded583fa7521e05e3e29e6d820f963b6eb8f
+    #image { display: none; }
+
 }

@@ -142,7 +142,7 @@
     .home_links a img {
       max-width: 300px;
       height: auto;
-      box-shadow: 10px 10px #888888;
+      box-shadow: 0 0 11px lightslategrey;
     }
     .home_links a {
       color: #008db1;

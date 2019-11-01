@@ -11,9 +11,16 @@ ul.donateList { list-style-type: circle; }
         text-align: center;
 }
 
-a { color: #d68227; }
+a { color: #008db1; }
 
-a:active { color: #008db1; }
+a:hover { color: #d68227; }
+
+#screenshot {
+    margin: 20px;
+    transition: box-shadow .3s;
+}
+
+#screenshot:hover { box-shadow: 0 0 11px rgba(33,33,33,.2); }
 
 @media only screen and (min-width: 992px) {
     main {

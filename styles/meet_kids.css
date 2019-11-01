@@ -63,7 +63,7 @@
 }
 
  main {
-   margin: 0 8em 0 8em;
+   margin: 0 8em 4em 8em;
  }
  
   main h1 {
@@ -83,7 +83,7 @@
 .card-front img {
   width: 300px;
   height: 300px;
-  box-shadow: 10px 10px lightgray;
+  box-shadow: 0 0 11px lightslategray;
   cursor: pointer;
 }
 
@@ -102,7 +102,7 @@
   }
 
   main {
-    margin: 0 10px 0 10px;
+    margin: 0 10px 25px 10px;
   }
 
   .card-front img {
@@ -116,7 +116,7 @@
     grid-template-columns: auto auto;
   }
 
-  main { margin: 0 2em 0 2em;}
+  main { margin: 0 2em 2em 2em;}
 
 
 }

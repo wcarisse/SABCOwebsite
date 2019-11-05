@@ -2,13 +2,7 @@
 
 @media only screen and (min-width: 992px) {
     * { 
-      font-family: 'McLaren', sans-serif;
-      font-family: 'Muli', sans-serif;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-
-    body {
-      font-family: 'Muli', sans-serif;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .infoheader {
